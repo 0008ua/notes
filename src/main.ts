@@ -3,8 +3,7 @@ import { INestApplication } from '@nestjs/common';
 import { AppModule } from './app.module';
 import * as fs from 'fs';
 import * as path from 'path';
-console.log('__dirname ', __dirname);
-console.log('process.env.PORT ', process.env.PORT);
+
 async function bootstrap() {
   let app: INestApplication;
   if (process.env.NODE_ENV === 'development') {

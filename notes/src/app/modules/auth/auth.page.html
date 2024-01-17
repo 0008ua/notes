@@ -10,4 +10,24 @@
       <ion-title size="large">auth</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col
+        size-lg="6"
+        size-md="8"
+        size-sm="10"
+        offset-lg="3"
+        offset-md="2"
+        offset-sm="1"
+      >
+        <!-- <ion-button (click)="switchSignin()"
+          >{{isSignin ? 'click to signup' : 'click to signin'}}</ion-button
+        > -->
+        <app-signin *ngIf="isSignin; else signup" (isSigninEvent)="onIsSignin($event)"></app-signin>
+        <ng-template #signup>
+          <app-signup (isSigninEvent)="onIsSignin($event)"></app-signup>
+        </ng-template>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

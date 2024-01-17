@@ -4,7 +4,7 @@ import { Connection } from 'mongoose';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
-  }
+  // getHello(): string {
+  //   return 'Hello World!';
+  // }
 }

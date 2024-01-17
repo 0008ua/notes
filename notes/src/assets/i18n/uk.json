@@ -1,0 +1,54 @@
+{
+  "headings": {
+    "notes": "Нотатки",
+    "settings": "Налаштування",
+    "profile": "Профіль"
+  },
+  "auth": {
+    "signin": "Вхід",
+    "signup": "Реєстрація",
+    "orSignup": "Або реєстрація",
+    "orSignin": "Або вхід",
+    "logout": "Вийти",
+    "name": "Ім'я",
+    "email": "Email",
+    "password": "Пароль",
+    "confirmPassword": "Підтвердити пароль"
+  },
+  "shared": {
+    "language": "Switch to english",
+    "switchToDark": "Темний режим",
+    "switchToLight": "Світлий режим",
+    "true": "Так",
+    "false": "Ні"
+  },
+  "buttons": {
+    "cancel": "Відмінити",
+    "return": "Повернутись",
+    "confirm": "Підтвердити",
+    "send": "Надіслати",
+    "add": "Додати",
+    "create": "Створити",
+    "remove": "Видалити",
+    "removeAll": "Видалити всіх",
+    "update": "Оновити",
+    "slideToDelete": "Зсунути для видалення",
+    "slideForOptions": "Зсунути для опцій",
+    "submit": "Зберегти",
+    "activate": "Активувати",
+    "close": "Закрити",
+    "delete": "Видалити",
+    "subscribe": "Підписатися",
+    "unsubscribe": "Відписатися"
+  },
+  "errors": {
+    "minlength": "Надто короткий",
+    "maxlength": "Надто довгий",
+    "required": "Обов'язкове поле",
+    "pattern": "Присутні недопустимі символи або невірне форматування",
+    "notunique": "Вже існує",
+    "mismatch": "Не збігається",
+    "max": "Забагато",
+    "min": "Замало"
+  }
+}

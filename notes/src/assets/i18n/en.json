@@ -1,0 +1,54 @@
+{
+  "headings": {
+    "notes": "Notes",
+    "settings": "Settings",
+    "profile": "Profile"
+  },
+  "auth": {
+    "signin": "Sign in",
+    "signup": "Sign up",
+    "orSignup": "Or sign up",
+    "orSignin": "Or sign in",
+    "logout": "Logout",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password"
+  },
+  "shared": {
+    "language": "Перейти на Українську",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode",
+    "true": "Yes",
+    "false": "No"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "return": "Return",
+    "confirm": "Confirm",
+    "send": "Send",
+    "add": "Add",
+    "create": "Create",
+    "remove": "Remove",
+    "removeAll": "Remove all",
+    "update": "Update",
+    "slideToDelete": "Slide to delete",
+    "slideForOptions": "Slide for options",
+    "submit": "Submit",
+    "activate": "Activate",
+    "close": "Close",
+    "delete": "Delete",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unubscribe"
+  },
+  "errors": {
+    "minlength": "Too short",
+    "maxlength": "Too longg",
+    "required": "Required",
+    "pattern": "Some characters are not allowed or format is not correct",
+    "notunique": "Already exists",
+    "mismatch": "Mismatch",
+    "max": "Too much",
+    "min": "Not enough "
+  }
+}
